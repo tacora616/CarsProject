@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Car_Dealership">
+  <grid id="27dc6" binding="Main_Panel" layout-manager="GridLayoutManager" row-count="15" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="43" y="40" width="749" height="679"/>
+    </constraints>
+    <properties>
+      <background color="-328965"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9778d" class="javax.swing.JLabel" binding="Welcome">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15525403"/>
+          <font name="Book Antiqua" size="20" style="2"/>
+          <foreground color="-15525403"/>
+          <text value="Welcome to Howard's Dealership"/>
+        </properties>
+      </component>
+      <component id="61d56" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15525403"/>
+          <font name="Book Antiqua" size="14" style="2"/>
+          <foreground color="-15525403"/>
+          <text value="Select the make of the Car:"/>
+        </properties>
+      </component>
+      <component id="e83bd" class="javax.swing.JLabel" binding="Fuel_type">
+        <constraints>
+          <grid row="3" column="0" row-span="10" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15525403"/>
+          <font name="Book Antiqua" size="14" style="2"/>
+          <foreground color="-15525403"/>
+          <text value="Select fuel type:"/>
+        </properties>
+      </component>
+      <component id="5f97c" class="javax.swing.JRadioButton" binding="newcondition_Button1">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="NEW"/>
+        </properties>
+      </component>
+      <component id="612fb" class="javax.swing.JLabel" binding="Condition_Label">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15525403"/>
+          <font name="Book Antiqua" size="14" style="2"/>
+          <foreground color="-15525403"/>
+          <text value="Select Car Condition:"/>
+        </properties>
+      </component>
+      <component id="e2c18" class="javax.swing.JLabel" binding="Year">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15525403"/>
+          <font name="Book Antiqua" size="14" style="2"/>
+          <foreground color="-15525403"/>
+          <text value="Select Car year:"/>
+        </properties>
+      </component>
+      <component id="a612d" class="javax.swing.JComboBox" binding="Make_combobox">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Toyota"/>
+            <item value="Mercedes"/>
+            <item value="Lexus"/>
+            <item value="Porsche"/>
+            <item value="Cadiliac"/>
+            <item value="BMW"/>
+            <item value="Ferrari"/>
+            <item value="Ford"/>
+            <item value="Dodge"/>
+            <item value="Kia"/>
+            <item value="Honda"/>
+          </model>
+        </properties>
+      </component>
+      <component id="5a76c" class="javax.swing.JRadioButton" binding="UsedCondition_Button">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Used"/>
+        </properties>
+      </component>
+      <component id="6eb94" class="javax.swing.JLabel" binding="Milage_Label">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15525403"/>
+          <font name="Book Antiqua" size="14" style="2"/>
+          <foreground color="-15525403"/>
+          <text value="Select the Milage:"/>
+        </properties>
+      </component>
+      <component id="acbae" class="javax.swing.JTextField" binding="Milage">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a4d35" class="javax.swing.JRadioButton" binding="gas_button">
+        <constraints>
+          <grid row="4" column="2" row-span="9" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="GAS"/>
+        </properties>
+      </component>
+      <component id="402a6" class="javax.swing.JRadioButton" binding="Hybrid_Button">
+        <constraints>
+          <grid row="4" column="3" row-span="9" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="225" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Hybrid"/>
+        </properties>
+      </component>
+      <component id="8182b" class="javax.swing.JRadioButton" binding="Electric_Button">
+        <constraints>
+          <grid row="4" column="4" row-span="9" col-span="7" vsize-policy="0" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Electric"/>
+        </properties>
+      </component>
+      <component id="3911f" class="javax.swing.JButton" binding="Submit_Button">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="225" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Match my car!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
